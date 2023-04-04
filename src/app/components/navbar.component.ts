@@ -29,6 +29,15 @@ import { Component } from '@angular/core';
             <li class="nav-item">
               <a class="nav-link" href="#trusted">Trusted</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact Us
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="tel:++16158289974" role="button"><i class="bi bi-phone"></i> +1(615)828-9974</a></li>
+                <li><a class="dropdown-item" href="mailto:marcocuxum463@gmail.com"><i class="bi bi-envelope"></i> marcocuxum463@gmail.com</a></li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>

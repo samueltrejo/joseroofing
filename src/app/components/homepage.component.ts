@@ -15,9 +15,9 @@ import { Component } from '@angular/core';
           <p class="lead text-uppercase mb-5" style="color: #fff;">Quality solutions for your home or business</p>
           <p class="lead mt-5 mb-4" style="color: #fff;">At J&H, we provide top-quality roofing services, including repairs and
             installations. We also specialize in gutter installations and repairs, and offer trailer rentals to help you transport
-            materials or equipment for your roofing projects. Trust J&H to ensure your roof is in excellent condition.</p>
+            materials or equipment for your roofing projects. Trust J&H to ensure your roof is in excellent condition. Call, text or email for a free estimate.</p>
           <div class="d-flex justify-content-center mb-4">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Get a Free Estimate</a>
+            <a class="btn btn-primary btn-lg" href="tel:++16158289974" role="button">Get a Free Estimate</a>
           </div>
         </div>
         </div>

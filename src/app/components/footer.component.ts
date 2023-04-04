@@ -28,16 +28,20 @@ import { Component } from '@angular/core';
         <div class="col-md-3">
           <h5 class="text-uppercase mb-4">Contact Us</h5>
           <ul class="list-unstyled small">
-            <li><i class="bi bi-phone"></i> +1(615)828-9974</li>
-            <li><i class="bi bi-envelope"></i> marcocuxum463@gmail.com</li>
-            <li><i class="bi bi-geo-alt"></i> 4052 Yoest Dr, Nashville, TN 37207</li>
+            <li><a href="tel:++16158289974" role="button"><i class="bi bi-phone"></i> +1(615)828-9974</a></li>
+            <li><a href="mailto:marcocuxum463@gmail.com"><i class="bi bi-envelope"></i> marcocuxum463@gmail.com</a></li>
+            <li><a href="http://maps.google.com/?q=4052 Yoest Dr, Nashville, TN 37207" target="_blank"><i class="bi bi-geo-alt"></i>  4052 Yoest Dr, Nashville, TN 37207</a></li>
           </ul>
         </div>
       </div>
     </div>
   </footer>
   `,
-  styles: []
+  styles: [
+    `a {
+      text-decoration: none;
+    }`
+  ]
 })
 export class FooterComponent {
 
