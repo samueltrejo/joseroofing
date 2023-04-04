@@ -16,8 +16,9 @@ import { Component } from '@angular/core';
           <p class="lead mt-5 mb-4" style="color: #fff;">At J&H, we provide top-quality roofing services, including repairs and
             installations. We also specialize in gutter installations and repairs, and offer trailer rentals to help you transport
             materials or equipment for your roofing projects. Trust J&H to ensure your roof is in excellent condition. Call, text or email for a free estimate.</p>
-          <div class="d-flex justify-content-center mb-4">
-            <a class="btn btn-primary btn-lg" href="tel:++16158289974" role="button">Get a Free Estimate</a>
+          <div class="btn-group mb-4">
+            <a href="tel:+16155857127" class="btn btn-primary">Free Estimate</a>
+            <a href="tel:+16158289974" class="btn btn-primary">Estimado Gratis</a>
           </div>
         </div>
         </div>
@@ -197,6 +198,7 @@ import { Component } from '@angular/core';
     .hero-content {
       backdrop-filter: blur(10px);
       border-radius: 15px;
+      box-shadow: 0 0px 5px rgba(0,0,0,0.2);
     }
     
     .carousel-item {
