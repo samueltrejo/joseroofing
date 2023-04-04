@@ -34,7 +34,8 @@ import { Component } from '@angular/core';
                 Contact Us
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="tel:++16158289974" role="button"><i class="bi bi-phone"></i> +1(615)828-9974</a></li>
+                <li><a class="dropdown-item" href="tel:+16155857127" role="button"><i class="bi bi-phone"></i> +1(615)585-7127</a></li>
+                <li><a class="dropdown-item" href="tel:+16158289974" role="button"><i class="bi bi-phone"></i> +1(615)828-9974 Español</a></li>
                 <li><a class="dropdown-item" href="mailto:marcocuxum463@gmail.com"><i class="bi bi-envelope"></i> marcocuxum463@gmail.com</a></li>
               </ul>
             </li>
